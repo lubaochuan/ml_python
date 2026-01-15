@@ -1,4 +1,3 @@
-```markdown
 # Chapter 1 Summary
 **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3rd ed.)**
 *Aurélien Géron*
