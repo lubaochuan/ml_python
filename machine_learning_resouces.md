@@ -28,6 +28,8 @@ The video concludes with a roadmap of core concepts and a list of free learning 
   * free PDF book in R or Python https://www.statlearning.com/
   * video playlist for machine learning-specific math https://www.youtube.com/playlist?list=PLOg0ngHtcqbPTlZzRHA2ocQZqB1D_qZ5V
   * video playlist for the Python version of the book https://www.youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ
+  * MOOC course on edx https://www.edx.org/learn/python/stanford-university-statistical-learning-with-python
+  * code and data sets https://www.statlearning.com/resources-python
 
 * 3Blue1Brown: use animation to help elucidate and motivate otherwise tricky topics, such as math, physics, and CS
   * video playlist https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
@@ -67,6 +69,15 @@ This course aims to help viewers understand the theory behind machine learning a
 * **Core Algorithms**: This course provides step-by-step guides for key machine learning algorithms, including [Linear and Logistic Regression](http://www.youtube.com/watch?v=1fcfZ_Ne8ok), [Decision Trees](http://www.youtube.com/watch?v=1fcfZ_Ne8ok), [Random Forest](http://www.youtube.com/watch?v=1fcfZ_Ne8ok), [Naive Bayes](http://www.youtube.com/watch?v=1fcfZ_Ne8ok), and [Support Vector Machines (SVM)](http://www.youtube.com/watch?v=1fcfZ_Ne8ok).
 * **Practical Application**: Learners are taught how to handle real-world data, perform matrix operations, reindex dataframes, and fill missing values to prepare datasets for modeling.
 * **Interview Preparation**: The course concludes with a detailed section on [interview questions and answers](http://www.youtube.com/watch?v=1fcfZ_Ne8ok), covering core ML components, Python-specific coding tasks, and scenario-based problems like building recommendation systems.
+
+### An Introduction to Statistical Learning
+https://www.edx.org/learn/python/stanford-university-statistical-learning-with-python
+
+This free course from Stanford Online provides a comprehensive overview of supervised and unsupervised learning techniques using Python.
+  * free PDF book in R or Python https://www.statlearning.com/
+  * video playlist for machine learning specific math https://www.youtube.com/playlist?list=PLOg0ngHtcqbPTlZzRHA2ocQZqB1D_qZ5V
+  * video playlist for the Python version of the book https://www.youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ
+  * code and data sets https://www.statlearning.com/resources-python
 
 ## Websites
 ### Starquest
