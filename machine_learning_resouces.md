@@ -60,7 +60,58 @@ This comprehensive 1.5-hour tutorial is designed to move videwers beyond basic t
 * **Model Evaluation**: Instructions on how to properly split datasets and use built-in metrics to verify the accuracy and performance of your models.
 * **Clustering**: Exploration of unsupervised learning methods to find hidden patterns and group similar data points together.
 
-## Video Courses
+### Python Machine Learning Tutorial (Data Science) (50 mins)
+https://youtu.be/7eh4d6sabA0?si=MNeXfVqbIeYwUCNYLinks
+
+This one-hour tutorial provides a comprehensive introduction to Machine Learning using **Python** and **Jupyter Notebook**. It is designed for beginners who have a basic understanding of Python but are new to data science.
+
+**Core Topics Covered**
+* **Machine Learning Basics:** Mosh explains the difference between traditional programming (explicit rules) and machine learning (pattern recognition from data) [[01:09](http://www.youtube.com/watch?v=7eh4d6sabA0&t=69)].
+* **Project Workflow:** The tutorial outlines the standard steps of a machine learning project, including importing data, cleaning/preparing it, splitting data into training and test sets, building a model, and evaluating its accuracy [[03:02](http://www.youtube.com/watch?v=7eh4d6sabA0&t=182)].
+* **Essential Libraries:** You will learn about the primary tools used in the industry, such as **Pandas** for data analysis, **NumPy** for multi-dimensional arrays, and **Scikit-Learn** for implementing algorithms [[05:50](http://www.youtube.com/watch?v=7eh4d6sabA0&t=350)].
+* **Hands-on Project:** The video walks through a real-world scenario: building a music recommender system that predicts the genre of music a user likes based on their age and gender [[23:03](http://www.youtube.com/watch?v=7eh4d6sabA0&t=1383)].
+* **Advanced Techniques:**
+* **Model Persistence:** How to save and load models using `joblib` so you don't have to retrain them every time [[39:45](http://www.youtube.com/watch?v=7eh4d6sabA0&t=2385)].
+* **Visualizing Decision Trees:** Exporting a model into a graphical format (using Graphviz) to see the logic behind its predictions [[43:04](http://www.youtube.com/watch?v=7eh4d6sabA0&t=2584)].
+
+### Machine Learning with Python Full Course [2025] - Beginner to Advanced (12 hrs)
+https://www.youtube.com/live/1fcfZ_Ne8ok?si=5vcY09DZb3_lB9r4Links
+
+This 12-hour course provides a massive, end-to-end curriculum for learning Machine Learning using Python. It transitions from fundamental coding to advanced algorithms and career preparation.
+
+**Core Modules & Topics**
+* **Python Foundations:** The course begins with a solid foundation in Python, covering essential data science libraries:
+* **NumPy:** Used for high-performance numerical computing and matrix operations [[01:17:13](http://www.youtube.com/watch?v=1fcfZ_Ne8ok&t=4633)].
+* **Pandas:** Detailed instruction on data manipulation, including creating DataFrames, reindexing, and handling missing data [[01:42:55](http://www.youtube.com/watch?v=1fcfZ_Ne8ok&t=6175)], [[02:03:14](http://www.youtube.com/watch?v=1fcfZ_Ne8ok&t=7394)].
+* **Matplotlib:** For data visualization and graphical analysis.
+* **Machine Learning Fundamentals:** Explores the "why" behind ML, the types of models (Supervised, Unsupervised, Reinforcement), and the core mathematics required [[02:48](http://www.youtube.com/watch?v=1fcfZ_Ne8ok&t=168)].
+* **Algorithm Deep Dive:** Step-by-step guides on implementing and choosing the right techniques for specific problems, including:
+* Linear and Logistic Regression.
+* Decision Trees and Random Forests.
+* Naïve Bayes and Support Vector Machines (SVM).
+* **Recommendation Systems:** Explains the mechanics of Collaborative and Content-based filtering used by giants like Amazon and Netflix [[11:34:45](http://www.youtube.com/watch?v=1fcfZ_Ne8ok&t=41685)].
+* **Career Preparation:** The course concludes with a significant section on interview questions, covering theoretical concepts, Python coding challenges, and scenario-based problem solving [[11:37:06](http://www.youtube.com/watch?v=1fcfZ_Ne8ok&t=41826)].
+
+### Machine Learning with Python and Scikit-Learn – Full Course (18 hrs)
+https://youtu.be/hDKCxebp88A?si=IHO8BuBWnffj4CQkLinks
+
+This 18-hour intensive course by **freeCodeCamp.org** is a comprehensive, hands-on guide to Machine Learning with Python and Scikit-Learn. It is designed to take students from the absolute basics of data manipulation to deploying fully functional models in the cloud.
+
+**Core Topics and Learning Path**
+* **Linear Regression with Scikit-Learn:** The course starts by using linear regression to solve a real-world business problem: predicting medical insurance premiums [[00:28](http://www.youtube.com/watch?v=hDKCxebp88A&t=28)].
+* **Data Science Workflow:** You’ll learn how to download historical data (CSV files), explore it using **Pandas**, and identify correlations between variables like age, BMI, and smoking habits [[05:45](http://www.youtube.com/watch?v=hDKCxebp88A&t=345)].
+* **Model Building:** Instructions on calculating the **Root Mean Squared Error (RMSE)** to measure model accuracy and adjusting weights/biases to optimize performance [[01:07:24](http://www.youtube.com/watch?v=hDKCxebp88A&t=4044)], [[01:13:00](http://www.youtube.com/watch?v=hDKCxebp88A&t=4380)].
+* **Essential Libraries:** Deep dives into **NumPy** for numerical processing and **Matplotlib/Seaborn** for visualizing data trends [[06:17](http://www.youtube.com/watch?v=hDKCxebp88A&t=377)], [[34:38](http://www.youtube.com/watch?v=hDKCxebp88A&t=2078)].
+* **Machine Learning Theory:** A transition from manual decision-making to automated systems, explaining the "logic click" of training an optimization method to reduce loss [[01:36:06](http://www.youtube.com/watch?v=hDKCxebp88A&t=5766)], [[02:31:04](http://www.youtube.com/watch?v=hDKCxebp88A&t=9064)].
+* **Deployment and Web Integration:**
+* **Packaging Models:** Using **Pickle** to save models so they can be reused without retraining [[17:58:13](http://www.youtube.com/watch?v=hDKCxebp88A&t=64693)].
+* **Web Applications:** Building an interface using **HTML, CSS, and Python** and deploying the finished product to cloud services like **Render** [[17:56:07](http://www.youtube.com/watch?v=hDKCxebp88A&t=64567)].
+* **APIs:** Creating and fetching APIs to allow other software to communicate with your model [[17:56:42](http://www.youtube.com/watch?v=hDKCxebp88A&t=64602)].
+* **Real-World Application:** The course is highly practical, focusing on business contexts such as estimating annual medical expenditures for insurance companies [[02:25](http://www.youtube.com/watch?v=hDKCxebp88A&t=145)].
+* **Handling Imperfect Data:** Includes lessons on dealing with "null" values and missing information in large datasets [[02:46:42](http://www.youtube.com/watch?v=hDKCxebp88A&t=10002)].
+* **Portfolio Building:** The final module focuses on showcasing your work on **GitHub** and LinkedIn, making it ideal for job seekers [[17:56:00](http://www.youtube.com/watch?v=hDKCxebp88A&t=64560)], [[18:00:01](http://www.youtube.com/watch?v=hDKCxebp88A&t=64801)]
+
+## Courses
 ### Machine Learning with Python Full Course [2025] - Beginner to Advanced (12 hrs)
 https://www.youtube.com/live/1fcfZ_Ne8ok?si=5vcY09DZb3_lB9r4
 
@@ -78,6 +129,11 @@ This free course from Stanford Online provides a comprehensive overview of super
   * video playlist for machine learning specific math https://www.youtube.com/playlist?list=PLOg0ngHtcqbPTlZzRHA2ocQZqB1D_qZ5V
   * video playlist for the Python version of the book https://www.youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ
   * code and data sets https://www.statlearning.com/resources-python
+
+### Elements of AI
+https://course.elementsofai.com
+
+This free online course aims to teach important AI concepts to people of all backgrounds.
 
 ## Websites
 ### Starquest
