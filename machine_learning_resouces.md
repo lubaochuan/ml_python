@@ -112,6 +112,10 @@ This 18-hour intensive course by **freeCodeCamp.org** is a comprehensive, hands-
 * **Portfolio Building:** The final module focuses on showcasing your work on **GitHub** and LinkedIn, making it ideal for job seekers [[17:56:00](http://www.youtube.com/watch?v=hDKCxebp88A&t=64560)], [[18:00:01](http://www.youtube.com/watch?v=hDKCxebp88A&t=64801)]
 
 ## Courses
+
+### Google Machine Learning Courses
+https://developers.google.com/machine-learning
+
 ### Machine Learning with Python Full Course [2025] - Beginner to Advanced (12 hrs)
 https://www.youtube.com/live/1fcfZ_Ne8ok?si=5vcY09DZb3_lB9r4
 
