@@ -1,6 +1,6 @@
 # Mahcine Learning Resources
 
-## Short Videos
+## Videos
 
 ### How Math makes Machine Learning easy (and how you can learn it) (9min)
 https://youtu.be/wOTFGRSUQ6Q?si=ecWHdndm-Fa6UyYu
@@ -110,6 +110,10 @@ This 18-hour intensive course by **freeCodeCamp.org** is a comprehensive, hands-
 * **Real-World Application:** The course is highly practical, focusing on business contexts such as estimating annual medical expenditures for insurance companies [[02:25](http://www.youtube.com/watch?v=hDKCxebp88A&t=145)].
 * **Handling Imperfect Data:** Includes lessons on dealing with "null" values and missing information in large datasets [[02:46:42](http://www.youtube.com/watch?v=hDKCxebp88A&t=10002)].
 * **Portfolio Building:** The final module focuses on showcasing your work on **GitHub** and LinkedIn, making it ideal for job seekers [[17:56:00](http://www.youtube.com/watch?v=hDKCxebp88A&t=64560)], [[18:00:01](http://www.youtube.com/watch?v=hDKCxebp88A&t=64801)]
+
+#### San Diego Machine Learning Groups
+meetup videos and tutorials
+https://www.youtube.com/@SanDiegoMachineLearning/playlists
 
 ## Courses
 
