@@ -22,10 +22,7 @@ We usually describe the problem like this:
 
 > **Output = model(inputs) + noise**
 
-In symbols:
-$$
-Y = f(X) + \varepsilon
-$$
+In symbols: $$Y = f(X) + \varepsilon$$
 
 * **X (inputs)**: the information we observe (features)
 * **Y (output)**: what we want to predict or explain
