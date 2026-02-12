@@ -2,16 +2,10 @@
 **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3rd ed.)**
 *Aurélien Géron*
 
----
-
 ## Overview
-
 Chapter 1 provides a **big-picture introduction to Machine Learning (ML)**. Rather than focusing on algorithms or code, it explains **what ML is, why it matters, what kinds of problems it solves, and how ML systems are categorized**. The chapter establishes a shared vocabulary and mental model that prepares readers for the practical chapters that follow.
 
----
-
 ## What Is Machine Learning?
-
 Machine Learning is the field of study that enables computers to **learn patterns from data and improve performance on a task without being explicitly programmed**. Instead of hard-coding rules, ML systems infer rules from examples.
 
 ### Why Machine Learning?
@@ -27,14 +21,10 @@ ML excels in:
 - Natural language processing
 - Autonomous systems
 
----
-
 ## Types of Machine Learning Systems
-
 ML systems can be classified along several dimensions.
 
 ### 1. By Amount of Supervision
-
 #### Supervised Learning
 - Trained on **labeled data**
 - Common tasks:
@@ -59,10 +49,7 @@ ML systems can be classified along several dimensions.
 - Feedback is given as **rewards or penalties**
 - Used in robotics, game playing, and control systems
 
----
-
 ### 2. By Learning Style
-
 #### Batch Learning
 - Trained on the entire dataset at once
 - Cannot adapt quickly to new data
@@ -73,10 +60,7 @@ ML systems can be classified along several dimensions.
 - Suitable for large or continuously changing datasets
 - Sensitive to bad data
 
----
-
 ### 3. By Generalization Method
-
 #### Instance-Based Learning
 - Learns by memorizing examples
 - Generalizes by comparing new instances to known ones
@@ -87,10 +71,7 @@ ML systems can be classified along several dimensions.
 - Uses optimization to find best parameters
 - Example: linear regression
 
----
-
 ## Key Concepts in Machine Learning
-
 ### Training and Inference
 - **Training**: learning patterns from data
 - **Inference**: making predictions on new data
@@ -107,30 +88,21 @@ ML systems can be classified along several dimensions.
 - Quantity and quality of data are often more important than algorithm choice
 - Bias in data leads to biased models
 
----
-
 ## Testing and Validation
-
 - Data is typically split into:
   - **Training set**
   - **Validation set**
   - **Test set**
 - The test set must remain untouched until final evaluation
 
----
-
 ## Challenges in Machine Learning
-
 - Insufficient or poor-quality data
 - Non-representative training data
 - Irrelevant features
 - Data leakage
 - Concept drift (data distribution changes over time)
 
----
-
 ## The Machine Learning Workflow
-
 1. Define the problem
 2. Collect and prepare data
 3. Choose a model
@@ -138,16 +110,10 @@ ML systems can be classified along several dimensions.
 5. Evaluate performance
 6. Fine-tune and deploy
 
----
-
 ## Big Picture Takeaway
-
 > Machine Learning is less about clever algorithms and more about **formulating the right problem, using the right data, and evaluating models properly**.
 
----
-
 # Glossary of Key Terms
-
 **Artificial Intelligence (AI)**
 The broader field focused on creating systems that exhibit intelligent behavior.
 
@@ -203,7 +169,6 @@ Learning by building and optimizing a predictive model.
 When the statistical properties of the target variable change over time.
 
 # AI Applications and Common Learning Algorithms
----
 | AI Application                 | Typical Learning Tasks              | Common Algorithms / Models                                         |
 | ------------------------------ | ----------------------------------- | ------------------------------------------------------------------ |
 | Email spam filtering           | Binary classification               | Naive Bayes, Logistic Regression, SVM                              |
@@ -230,12 +195,7 @@ When the statistical properties of the target variable change over time.
 # AI Applications Organized by Learning Type
 Below is a **reorganized, instructor-ready table** that groups AI applications **by learning type**, adds **pros / cons of the algorithms**, and **annotates with real-world systems**. This format works well for lectures, exams, and student handouts.
 
----
-
 ## AI Applications Organized by Learning Type
-
----
-
 ## 1. Supervised Learning
 
 | Application             | Algorithms                            | Pros                                                    | Cons                                                | Real-World Systems      |
@@ -248,10 +208,7 @@ Below is a **reorganized, instructor-ready table** that groups AI applications *
 | Credit scoring          | Logistic Regression, XGBoost          | Interpretable (logistic), strong performance (XGBoost)  | Can encode societal bias                            | FICO-style models       |
 | Handwriting recognition | CNNs, HMMs                            | Excellent pattern recognition                           | Needs large labeled datasets                        | USPS OCR, Google OCR    |
 
----
-
 ## 2. Unsupervised Learning
-
 | Application              | Algorithms                      | Pros                              | Cons                                  | Real-World Systems           |
 | ------------------------ | ------------------------------- | --------------------------------- | ------------------------------------- | ---------------------------- |
 | Customer segmentation    | k-Means, DBSCAN                 | No labels needed; useful insights | Hard to evaluate; choice of k matters | Amazon marketing             |
@@ -259,19 +216,13 @@ Below is a **reorganized, instructor-ready table** that groups AI applications *
 | Dimensionality reduction | PCA, Autoencoders               | Visualization, noise reduction    | Loss of interpretability              | Data preprocessing pipelines |
 | Topic modeling           | LDA                             | Discover latent themes            | Topics may be hard to interpret       | News aggregators             |
 
----
-
 ## 3. Semi-Supervised Learning
-
 | Application                        | Algorithms                     | Pros                             | Cons                | Real-World Systems |
 | ---------------------------------- | ------------------------------ | -------------------------------- | ------------------- | ------------------ |
 | Image recognition (limited labels) | Pseudo-labeling, Self-training | Reduces labeling cost            | Error propagation   | Medical imaging AI |
 | Speech recognition                 | Semi-supervised DNNs           | Leverages massive unlabeled data | Training complexity | Voice assistants   |
 
----
-
 ## 4. Reinforcement Learning
-
 | Application                 | Algorithms                | Pros                              | Cons                         | Real-World Systems        |
 | --------------------------- | ------------------------- | --------------------------------- | ---------------------------- | ------------------------- |
 | Game playing                | Q-Learning, Deep RL, MCTS | Learns complex strategies         | High training cost           | AlphaGo, AlphaZero        |
@@ -279,29 +230,20 @@ Below is a **reorganized, instructor-ready table** that groups AI applications *
 | Autonomous driving          | RL + Imitation Learning   | Learns control policies           | Data and safety constraints  | Tesla Autopilot (partial) |
 | Recommendation optimization | Bandits, RL               | Balances exploration/exploitation | Difficult reward design      | Netflix recommendations   |
 
----
-
 ## 5. Instance-Based Learning (Supervised / Lazy Learning)
-
 | Application            | Algorithms                    | Pros              | Cons             | Real-World Systems    |
 | ---------------------- | ----------------------------- | ----------------- | ---------------- | --------------------- |
 | Recommendation systems | k-NN, Collaborative Filtering | Simple, intuitive | Poor scalability | Early Netflix systems |
 | Pattern matching       | k-NN                          | No training phase | Slow inference   | Basic image retrieval |
 
----
-
 ## 6. Model-Based Learning (Supervised)
-
 | Application            | Algorithms        | Pros                 | Cons                   | Real-World Systems    |
 | ---------------------- | ----------------- | -------------------- | ---------------------- | --------------------- |
 | House price prediction | Linear Regression | Interpretable, fast  | Limited expressiveness | Zillow estimates      |
 | Risk prediction        | Decision Trees    | Human-readable rules | Overfitting risk       | Loan approval tools   |
 | Search ranking         | Gradient Boosting | High accuracy        | Harder to interpret    | Google Search ranking |
 
----
-
 ## Big-Picture Teaching Takeaways
-
 * **Same application ≠ same algorithm**
   Real systems often combine multiple learning types.
 
@@ -317,13 +259,12 @@ Below is a **reorganized, instructor-ready table** that groups AI applications *
 <details>
 <summary>Example Answer</summary>
 Machine Learning is about building systems that can learn from data. Learning means getting better at some task, given some performance measure.
-Machine Learning is great for complex problems for which we have no algorithmic solution, to replace long lists of hand-tuned rules, to build systems that adapt to fluctuating environments, and finally to help humans learn (e.g., data mining).
 </details>
 
 2. Can you name four types of applications where it shines?
 <details>
 <summary></summary>
-
+Machine Learning is great for complex problems for which we have no algorithmic solution, to replace long lists of hand-tuned rules, to build systems that adapt to fluctuating environments, and finally to help humans learn (e.g., data mining).
 </details>
 
 3. What is a labeled training set?
