@@ -44,10 +44,12 @@ From this matrix, many metrics are derived.
 ### Precision and Recall
 
 * **Precision**: How many predicted positives are actually correct? When the model predicts positive, how often is it correct?
+
 $$
 \text{Precision} = \frac{TP}{TP + FP}
 $$
 * **Recall**: How many **actual** positives were correctly identified? (TPR)
+
 $$
 \text{Recall} = \frac{TP}{TP + FN}
 $$
