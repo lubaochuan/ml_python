@@ -6,8 +6,6 @@
 
 Chapter 3 introduces **classification problems**, where the goal is to assign inputs to **discrete categories** rather than predicting continuous values. Using the MNIST digit dataset as a running example, the chapter emphasizes that **choosing the right evaluation metric** is often more important than choosing the model itself—especially when classes are imbalanced or errors have unequal costs.
 
----
-
 ## 1. What Is Classification?
 
 Classification tasks involve predicting:
@@ -18,8 +16,6 @@ Classification tasks involve predicting:
 
 The chapter begins with a **binary classification task** (“Is this digit a 5?”) to simplify reasoning before extending to more complex cases.
 
----
-
 ## 2. Training a Binary Classifier
 
 A simple linear classifier (e.g., **SGDClassifier**) is trained on MNIST.
@@ -29,8 +25,6 @@ Key ideas:
 * Large datasets often require **stochastic or mini-batch methods**
 * Linear classifiers are fast and scalable
 * Training accuracy alone is misleading
-
----
 
 ## 3. Performance Measures
 
@@ -49,16 +43,25 @@ From this matrix, many metrics are derived.
 
 ### Precision and Recall
 
-* **Precision**: How many predicted positives are actually correct?
-* **Recall**: How many actual positives were correctly identified?
+* **Precision**: How many predicted positives are actually correct? When the model predicts positive, how often is it correct?
+$$
+\text{Precision} = \frac{TP}{TP + FP}
+$$
+* **Recall**: How many **actual** positives were correctly identified? (TPR)
+$$
+\text{Recall} = \frac{TP}{TP + FN}
+$$
+
+* **Accuracy**: Out of all predictions, how many were correct?
+  * Correct predictions: TP + TN
+  * Total: TP + TN + FP + FN
+  * Accuracy = (TP + TN) / Total
 
 The chapter highlights the **precision–recall tradeoff** and why different applications prioritize different metrics (e.g., medical screening vs. spam filtering).
 
 ### F1 Score
 
 The harmonic mean of precision and recall, useful when a balance is needed.
-
----
 
 ## 4. Decision Thresholds
 
@@ -67,8 +70,6 @@ Many classifiers output **scores**, not labels.
 * The **decision threshold** determines how scores map to class labels.
 * Adjusting the threshold changes precision and recall.
 * This enables models to be tuned for business or ethical priorities.
-
----
 
 ## 5. ROC Curves and AUC
 
@@ -80,9 +81,7 @@ Another evaluation framework:
 The chapter explains:
 
 * ROC AUC is useful for comparing classifiers
-* Precision–Recall curves are often better for **imbalanced datasets**
-
----
+* Precision–Recall (PR) curves are often better for **imbalanced datasets**
 
 ## 6. Multiclass Classification
 
@@ -92,8 +91,6 @@ Two common strategies:
 * **One-vs-One (OvO)**
 
 Many Scikit-Learn classifiers support multiclass classification natively or through wrappers.
-
----
 
 ## 7. Error Analysis
 
@@ -105,16 +102,12 @@ Beyond metrics:
 
 This step informs better feature engineering and data collection.
 
----
-
 ## 8. Multilabel Classification
 
 In multilabel tasks:
 
 * Each instance can belong to multiple classes
 * Evaluation requires specialized metrics (e.g., Hamming loss)
-
----
 
 ## 9. Multioutput Classification
 
@@ -125,17 +118,13 @@ An extension where:
 
 This is useful for structured prediction problems.
 
----
-
 ## Key Takeaways
 
-* Accuracy alone is often misleading.
+* Accuracy alone is often **misleading**.
 * Evaluation metrics encode **values and priorities**.
 * Threshold tuning is a powerful, underused tool.
 * Error analysis is essential for improvement and trust.
 * Classification performance must be interpreted in context.
-
----
 
 # Glossary of Key Terms
 
@@ -145,15 +134,15 @@ A supervised learning task where outputs are discrete labels.
 
 ### Binary Classification
 
-Classification with two possible classes.
+Classification with **two** possible classes.
 
 ### Multiclass Classification
 
-Classification with more than two classes.
+Classification with **more than two** classes.
 
 ### Multilabel Classification
 
-Each instance can belong to multiple classes simultaneously.
+Each instance can belong to multiple classes **simultaneously**.
 
 ### Multioutput Classification
 
