@@ -125,6 +125,66 @@ It now predicts only 60 people as positive:
 2. Did recall increase or decrease?
 3. Explain in one sentence what trade-off occurred.
 
+### Deep Understanding
+
+Same confusion matrix:
+* TP = 30
+* FP = 20
+* FN = 10
+* TN = 40
+
+If I lower the classification threshold, what will generally happen to:
+* Precision (increase / decrease / uncertain)
+* Recall (increase / decrease / uncertain)
+
+Don’t guess — reason it out.
+
+<details>
+<summary>answer</summary>
+
+Lower threshold → model predicts positive more often
+* FP tends to rise → precision tends to decrease
+* FN tends to drop → recall tends to increase
+
+(There are edge cases where precision might not move much, but “↓ precision, ↑ recall” is the standard trade-off.)
+</details>
+
+Suppose we have a very imbalanced dataset:
+* 10,000 total cases
+* 100 positives (1%)
+* 9,900 negatives
+
+A dumb classifier predicts everything as negative.
+
+What is:
+* Accuracy =
+* Precision =
+* Recall =
+
+(No calculator needed — think it through carefully.)
+
+<details>
+<summary>answer</summary>
+
+Precision = TP / (TP + FP) = 0 / (0 + 0)
+
+This is undefined, not infinity. Because the model never predicts positive, and we are asking: “Of the predicted positives, how many were correct?”
+
+In practice, scikit-learn defines this as 0 (with warning), and it is mathematically: undefined.
+
+So the correct conceptual answer: Precision = undefined (or treated as 0)
+
+Recall = TP / (TP + FN) = 0 / (0 + 100) = 0
+
+This model has:
+* 99% accuracy
+* 0 recall
+* Useless in practice
+
+This is why accuracy is dangerous under class **imbalance**.
+
+</details>
+
 # Final Reflection
 
 1. What does **precision** measure?
