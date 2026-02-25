@@ -43,15 +43,7 @@ A spam classifier was tested on **100 emails**.
 ##### Formulas
 
 $$
-\text{Precision} = \frac{TP}{TP + FP}
-$$
-
-$$
-\text{Recall} = \frac{TP}{TP + FN}
-$$
-
-$$
-\text{Accuracy} = \frac{TP + TN}{Total}
+\text{Precision} = \frac{TP}{TP + FP} \hspace{1cm} \text{Recall} = \frac{TP}{TP + FN} \hspace{1cm} \text{Accuracy} = \frac{TP + TN}{Total}
 $$
 
 ##### Compute
@@ -132,10 +124,7 @@ It now predicts only 60 people as positive:
 ##### Deep Understanding
 
 Same confusion matrix:
-* TP = 30
-* FP = 20
-* FN = 10
-* TN = 40
+* TP = 30, FP = 20, FN = 10, TN = 40
 
 If I lower the classification threshold, what will generally happen to:
 * Precision (increase / decrease / uncertain)
@@ -154,9 +143,7 @@ Lower threshold → model predicts positive more often
 </details>
 
 Suppose we have a very imbalanced dataset:
-* 10,000 total cases
-* 100 positives (1%)
-* 9,900 negatives
+* 10,000 total cases, 100 positives (1%), 9,900 negatives
 
 A dumb classifier predicts everything as negative.
 
