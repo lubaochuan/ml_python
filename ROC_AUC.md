@@ -1,5 +1,12 @@
 
-## Confusion Matrix
+## Sensitivity, Specificity, ROC, and AUC
+
+This worksheet is designed for students to develop intuition over Sensitivity, Specificity, ROC, and AUC. It progresses from simple counting to interpreting trade-offs.
+
+**Name:** ____________________
+
+**Date:** ____________________
+
 
 A medical test is used to detect a disease.
 
@@ -12,6 +19,16 @@ A medical test is used to detect a disease.
 * TP, FP, FN, and TN
 * **Sensitivity (Recall, TPR)**
 * **Specificity (TNR)**
+
+<details>
+<summary>answer</summary>
+
+TP = 40, FP=10, FN=20, TN=130
+
+sensitivity (TPR, recall) = TP/(TP+FN) = 2/3
+
+specificity (TNR) = TN/(TN+FP) = 13/14
+</details>
 
 ### Interpretation
 
