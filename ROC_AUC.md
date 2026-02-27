@@ -71,8 +71,6 @@ When you lower the threshold:
 * You predict **positive more easily**
 * More people are labeled positive
 
-That means:
-
 ### What increases?
 
 * TP increases (you catch more sick people)
@@ -139,8 +137,6 @@ You can slide along this tradeoff, but you cannot maximize both simultaneously (
 
 #### ROC Intuition
 
-Quick conceptual check:
-
 The ROC curve plots:
 
 * X-axis = False Positive Rate (1 − Specificity)
@@ -174,9 +170,7 @@ Always Predict NEGATIVE
 
 So the point is:
 
-$$
-(0,0)
-$$
+$(0,0)$
 
 Bottom-left corner.
 
@@ -191,9 +185,7 @@ What happens?
 
 So the point is:
 
-$$
-(1,1)
-$$
+$(1,1)$
 
 Top-right corner.
 
@@ -207,9 +199,7 @@ What happens?
 
 So the point is:
 
-$$
-(0,1)
-$$
+$(0,1)$
 
 Top-left corner.
 
