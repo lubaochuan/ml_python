@@ -124,9 +124,11 @@ When you lower the threshold:
 
 So:
 
+
 $$
 \text{Sensitivity} = \frac{TP}{TP+FN} \uparrow
 $$
+
 
 $$
 \text{Specificity} = \frac{TN}{TN+FP} \downarrow
