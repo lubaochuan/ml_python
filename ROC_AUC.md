@@ -36,6 +36,52 @@ specificity (TNR) = TN/(TN+FP) = 13/14
 * What does the specificity value mean?
 * Which mistake is this test making more often — false positives or false negatives?
 
+<details>
+<summary>answer</summary>
+
+You’re given:
+
+* Sensitivity = 2/3
+* Specificity = 13/14
+
+Sensitivity = 2/3
+→ Among actual positives, 1/3 are missed.
+So the **false negative rate (FNR)** is:
+
+$$
+1 - \frac{2}{3} = \frac{1}{3}
+$$
+
+Specificity = 13/14
+→ Among actual negatives, 1/14 are falsely labeled positive.
+So the **false positive rate (FPR)** is:
+
+$$
+1 - \frac{13}{14} = \frac{1}{14}
+$$
+
+* False negative rate = 1/3 ≈ 0.333
+* False positive rate = 1/14 ≈ 0.071
+
+So **per person**, positives are missed much more often than negatives are falsely flagged.
+
+The model is more likely to make a **false negative error**, conditional on class.
+
+This does NOT automatically mean the model produces more false negatives than false positives overall, because the *number* of positives and negatives in the dataset matters.
+
+If there are many more negatives than positives:
+
+Even a small FPR × many negatives
+could produce more false positives in total.
+
+Summary:
+
+* The model has a much higher **false negative rate** than false positive rate.
+* So it is *more prone to missing positives*.
+* But whether there are more FNs than FPs overall depends on class prevalence.
+
+</details>
+
 ### Shift the Threshold
 
 Now suppose we make the test **more strict** (harder to predict positive).
