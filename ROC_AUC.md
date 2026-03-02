@@ -124,15 +124,9 @@ When you lower the threshold:
 
 So:
 
+Sensitivity = TP/(TP+FN) ↑
 
-$$
-\text{Sensitivity} = \frac{TP}{TP+FN} \uparrow
-$$
-
-
-$$
-\text{Specificity} = \frac{TN}{TN+FP} \downarrow
-$$
+Specificity = TN/(TN+FP) ↓
 
 ### If I make the threshold extremely low (almost always predict positive):
 
