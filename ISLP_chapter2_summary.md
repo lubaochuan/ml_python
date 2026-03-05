@@ -272,6 +272,8 @@ Overfitting occurs when a model learns noise rather than true patterns, leading 
 <details>
 <summary>Example Answer</summary>
 
+* Bias: error from overly simple assumptions
+* Variance: error from being too sensitive to training data
 Increasing model complexity reduces bias but increases variance; the best model balances the two to minimize test error.
 </details>
 
