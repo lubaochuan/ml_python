@@ -265,6 +265,22 @@ Machine Learning is about building systems that can learn from data. Learning me
 <details>
 <summary></summary>
 Machine Learning is great for complex problems for which we have no algorithmic solution, to replace long lists of hand-tuned rules, to build systems that adapt to fluctuating environments, and finally to help humans learn (e.g., data mining).
+
+* Image and Video Recognition
+
+Images contain complex patterns that are extremely difficult to describe with manual rules.
+
+* Natural Language Processing (Text & Speech)
+
+Human language is ambiguous and context-dependent, making rule-based systems extremely hard to build.
+
+* Recommendation Systems
+
+User preferences are hidden patterns in large behavioral datasets.
+
+* Predictive Analytics (Forecasting & Risk Prediction)
+
+These problems involve complex relationships between many variables that traditional models struggle to capture.
 </details>
 
 3. What is a labeled training set?
