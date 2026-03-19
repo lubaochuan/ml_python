@@ -8,7 +8,6 @@ This **StatQuest** video demystifies neural networks by explaining them as "big 
 ### **Core Concept: The Squiggle-Fitting Machine**
 The primary goal of a neural network is to fit a "squiggle" (a non-linear curve) to data where a straight line would fail, such as predicting drug effectiveness that is only high at medium dosages [[03:02](http://www.youtube.com/watch?v=CqOfi41LfDw&t=182)].
 
-
 ### **Key Components**
 * **Nodes and Connections:** A neural network consists of input nodes, output nodes, and **hidden layers** in between [[06:41](http://www.youtube.com/watch?v=CqOfi41LfDw&t=401)].
 * **Weights and Biases:** The numbers along the connections are **weights** (multipliers), and the numbers added at the nodes are **biases**. These are estimated using **backpropagation** [[17:13](http://www.youtube.com/watch?v=CqOfi41LfDw&t=1033)].
@@ -120,3 +119,6 @@ https://learning.edx.org/course/course-v1:StanfordOnline+SOHS-YSTATSLEARNINGP+1T
 
 ## Geoffrey Hinton: The Foundations of Deep Learning
 https://youtu.be/zl99IZvW7rE?si=fBMozMXzbVQC6FGe
+
+## Will AI outsmart human intelligence? - with 'Godfather of AI' Geoffrey Hinton
+https://youtu.be/IkdziSLYzHw?si=sj6h5kwwQKnL_Hyd
