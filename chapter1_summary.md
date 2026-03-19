@@ -261,7 +261,7 @@ Below is a **reorganized, instructor-ready table** that groups AI applications *
 Machine Learning is about building systems that can learn from data. Learning means getting better at some task, given some performance measure.
 </details>
 
-2. Can you name four types of applications where it shines?
+1. Can you name four types of applications where it shines?
 <details>
 <summary>Example Answer</summary>
 Machine Learning is great for complex problems for which we have no algorithmic solution, to replace long lists of hand-tuned rules, to build systems that adapt to fluctuating environments, and finally to help humans learn (e.g., data mining).
@@ -368,13 +368,13 @@ A test set is used to estimate the generalization error that a model will make o
 </details>
 
 
-17. What is the purpose of a validation set?
+1. What is the purpose of a validation set?
 <details>
 <summary>Example Answer</summary>
 A validation set is used to compare models. It makes it possible to select the best model and tune the hyperparameters.
 </details>
 
-18. What is the train-dev set, when do you need it, and how do you use it? 19. What can go wrong if you tune hyperparameters using the test set?
+1. What is the train-dev set, when do you need it, and how do you use it? 19. What can go wrong if you tune hyperparameters using the test set?
 <details>
 <summary>Example Answer</summary>
 The train-dev set is used when there is a risk of mismatch between the training data and the data used in the validation and test datasets (which should always be as close as possible to the data used once the model is in production). The train-dev set is a part of the training set that's held out (the model is not trained on it). The model is trained on the rest of the training set, and evaluated on both the train-dev set and the validation set. If the model performs well on the training set but not on the train-dev set, then the model is likely overfitting the training set. If it performs well on both the training set and the train-dev set, but not on the validation set, then there is probably a significant data mismatch between the training data and the validation + test data, and you should try to improve the training data to make it look more like the validation + test data.
