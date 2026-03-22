@@ -1,6 +1,6 @@
 # Videos Artificial Neural Networks
 
-## \The Essential Main Ideas of Neural Networks
+## The Essential Main Ideas of Neural Networks
 https://youtu.be/CqOfi41LfDw?si=fLanogYcHgdmn8Ax
 
 This **StatQuest** video demystifies neural networks by explaining them as "big fancy squiggle-fitting machines." Instead of using complex math, it walks through how simple components work together to fit a curve to data.
