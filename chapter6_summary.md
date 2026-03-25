@@ -226,3 +226,238 @@ Techniques that combine multiple models (e.g., Random Forests).
 
   * **Random Forests**
   * **Gradient Boosting**
+
+# Review Questions
+
+## Level 1: Basic Understanding (Warm-up)
+
+### Q1.
+
+You train a decision tree and it achieves **100% accuracy on training data** but performs poorly on test data.
+
+What is the most likely issue?
+
+a) Underfitting
+b) Overfitting
+c) Data leakage
+d) High bias
+
+### Q2.
+
+A node contains:
+
+* 50% Class A
+* 50% Class B
+
+What can you say about its impurity?
+
+a) Very low
+b) Medium
+c) Very high
+d) Zero
+
+### Q3.
+
+A split produces two child nodes:
+
+* Left: 90% A, 10% B
+* Right: 85% A, 15% B
+
+What is the best interpretation?
+
+a) Excellent split
+b) Useless split
+c) Moderate improvement
+d) Perfect classification
+
+## Level 2: Think Like the Algorithm
+
+### Q4.
+
+Why does a decision tree choose splits **greedily** (best split at current step)?
+
+a) It guarantees the global optimum
+b) It reduces computational cost
+c) It improves interpretability
+d) It avoids overfitting
+
+### Q5.
+
+You have two features:
+
+* Feature X → gives a small impurity reduction early
+* Feature Y → gives a large reduction later (but not chosen first)
+
+Why might the tree miss the better overall structure?
+
+a) Trees are random
+b) Trees are greedy
+c) Trees only use one feature
+d) Trees ignore deeper splits
+
+### Q6.
+
+A feature appears near the **root** of the tree.
+
+What does this usually indicate?
+
+a) It has missing values
+b) It is highly predictive
+c) It is categorical
+d) It has low variance
+
+## Level 3: What-If Scenarios
+
+### Q7.
+
+If you increase `max_depth`, what happens?
+
+a) Bias increases, variance decreases
+b) Bias decreases, variance increases
+c) Both increase
+d) Both decrease
+
+### Q8.
+
+If you set `min_samples_leaf = 50`, what happens?
+
+a) Tree becomes deeper
+b) Tree becomes simpler
+c) Tree becomes random
+d) Tree stops splitting entirely
+
+### Q9.
+
+What happens if your dataset has a lot of **noise** and you don’t regularize the tree?
+
+a) Tree becomes shallow
+b) Tree ignores noise
+c) Tree overfits noise
+d) Tree becomes linear
+
+## Level 4: Decision Boundary Intuition
+
+### Q10.
+
+Decision trees create what kind of decision boundaries?
+
+a) Smooth curves
+b) Circular regions
+c) Axis-aligned rectangles
+d) Random shapes
+
+### Q11.
+
+Why might a decision tree struggle with diagonal patterns?
+
+a) It cannot split data
+b) It only makes axis-aligned splits
+c) It ignores features
+d) It uses randomness
+
+## Level 5: Debugging Intuition
+
+### Q12.
+
+You slightly change one data point, and the tree structure changes drastically.
+
+Why?
+
+a) Trees are stable models
+b) Trees are sensitive to data
+c) Trees ignore small changes
+d) Trees use averaging
+
+### Q13.
+
+Your model performs poorly. You notice:
+
+* Tree is very shallow (depth = 2)
+
+What is the likely issue?
+
+a) Overfitting
+b) Underfitting
+c) Data leakage
+d) Too much data
+
+### Q14.
+
+You compare:
+
+* Model A: single decision tree
+* Model B: random forest
+
+Model B performs better. Why?
+
+a) It uses deeper trees
+b) It reduces variance
+c) It reduces bias only
+d) It uses fewer features
+
+## Challenge Level (Deep Intuition)
+
+### Q15.
+
+You have a perfectly separable dataset, but your tree is not achieving perfect accuracy.
+
+What could be the reason?
+
+a) max_depth too small
+b) impurity measure is wrong
+c) dataset too large
+d) too many features
+
+### Q16.
+
+Which situation makes decision trees perform poorly?
+
+a) Clear feature thresholds
+b) Nonlinear relationships
+c) Smooth continuous relationships
+d) Small datasets
+
+### Q17.
+
+Why are decision trees often combined into ensembles?
+
+a) To increase interpretability
+b) To reduce variance and improve generalization
+c) To simplify models
+d) To remove features
+
+<details>
+<summary>
+Answer Key
+</summary>
+
+**Level 1**
+Q1: b
+Q2: c
+Q3: c
+
+**Level 2**
+Q4: b
+Q5: b
+Q6: b
+
+**Level 3**
+Q7: b
+Q8: b
+Q9: c
+
+**Level 4**
+Q10: c
+Q11: b
+
+**Level 5**
+Q12: b
+Q13: b
+Q14: b
+
+**Challenge**
+Q15: a
+Q16: c
+Q17: b
+
+</details>
