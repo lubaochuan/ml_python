@@ -184,6 +184,7 @@ b
 
 b
 </details>
+
 # Final Reflection
 
 18. In your own words, what problem does PCA solve?
