@@ -122,3 +122,33 @@ https://youtu.be/zl99IZvW7rE?si=fBMozMXzbVQC6FGe
 
 ## Will AI outsmart human intelligence? - with 'Godfather of AI' Geoffrey Hinton
 https://youtu.be/IkdziSLYzHw?si=sj6h5kwwQKnL_Hyd
+
+What Are Neural Networks Even Doing? (Manifold Hypothesis)
+
+https://youtu.be/pdNYw6qwuNc?si=XeaqbBdkL_ZR06l0
+
+But what is a neural network? | Deep learning chapter 1
+
+https://youtu.be/aircAruvnKk?si=uMD7JmMVuE9NUyS7
+
+Gradient descent, how neural networks learn | Deep Learning Chapter 2
+
+https://youtu.be/IHZwWFHWa-w?si=lhs5jesaocFyXzIs
+
+Backpropagation, intuitively | Deep Learning Chapter 3
+
+https://youtu.be/Ilg3gGewQ5U?si=81h4iF2CBBvRnvaK
+
+Backpropagation calculus | Deep Learning Chapter 4
+
+https://youtu.be/tIeHLnjs5U8?si=zrYhIZbSq_H0BgrD
+
+Transformers, the tech behind LLMs | Deep Learning Chapter 5
+
+https://youtu.be/wjZofJX0v4M?si=6utorFSnmeReZT9l
+
+Attention in transformers, step-by-step | Deep Learning Chapter 6
+https://youtu.be/eMlx5fFNoYc?si=Cc1AhNnu1w5YlZ7a
+
+How might LLMs store facts | Deep Learning Chapter 7
+https://youtu.be/9-Jl0dxWQs8?si=TabLPRJYF_GCeoz-
