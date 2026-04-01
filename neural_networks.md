@@ -148,7 +148,41 @@ Transformers, the tech behind LLMs | Deep Learning Chapter 5
 https://youtu.be/wjZofJX0v4M?si=6utorFSnmeReZT9l
 
 Attention in transformers, step-by-step | Deep Learning Chapter 6
+
 https://youtu.be/eMlx5fFNoYc?si=Cc1AhNnu1w5YlZ7a
 
 How might LLMs store facts | Deep Learning Chapter 7
+
 https://youtu.be/9-Jl0dxWQs8?si=TabLPRJYF_GCeoz-
+
+Why Neural Networks can learn (almost) anything
+
+https://youtu.be/0QczhVg5HaI?si=GdHglTo1IIrUeLJx
+
+Universal Approximation Theorem - The Fundamental Building Block of Deep Learning
+
+https://youtu.be/wen3221_3gU?si=yGW0GkpBGC98waR4
+
+How Neural Networks Learn Concepts
+
+https://youtu.be/e5xKayCBOeU?si=7m9za6m6UWJi90w2
+
+Recurrent Neural Networks (RNNs), Clearly Explained!!!
+
+https://youtu.be/AsNTP8Kwu80?si=OuKeB6ujTDmUczuM
+
+Long Short-Term Memory (LSTM), Clearly Explained
+
+https://youtu.be/YCzL96nL7j0?si=BXaY-ogjLohZfipg
+
+Word Embedding and Word2Vec, Clearly Explained!!!
+
+https://youtu.be/viZrOnJclY0?si=6ihp8r3rzsbaDpJO
+
+Sequence-to-Sequence (seq2seq) Encoder-Decoder Neural Networks, Clearly Explained!!!
+
+https://youtu.be/L8HKweZIOmg?si=MkoBEI2ALcSNDdck
+
+Attention for Neural Networks, Clearly Explained!!!
+
+https://youtu.be/PSs6nxngL6k?si=AO6TEk3Y51Di15gV
