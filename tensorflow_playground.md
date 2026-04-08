@@ -58,7 +58,7 @@ Insight:
 <details>
 <summary>Answer</summary>
 
-Each neuron adds a “cut” in space → more neurons = more pieces ([Data Science Stack Exchange][3])
+Each neuron adds a “cut” in space → more neurons = more pieces
 </details>
 
 ## Part 3 — Two Hidden Layers (Depth Matters)
@@ -119,7 +119,7 @@ Layers build **hierarchical features** (simple → complex)
 * Width alone can create **patchy approximations**
 </details>
 
-## Part 5 — Hard Mode: Spiral Dataset 🌪️
+## Part 5 — Hard Mode: Spiral Dataset
 
 ### Instructions
 
