@@ -21,12 +21,10 @@ Artificial Neural Networks (ANNs) are powerful models inspired by the brain, cap
 * Weights: $(w_1, w_2, ..., w_n)$
 
 * Output:
-  $$
-  z = \sum w_i x_i + b
-  $$
-  $$
-  \text{output} = \phi(z)
-  $$
+
+  $z = \sum w_i x_i + b$
+
+  $\text{output} = \phi(z)$
 
 * $(\phi)$: activation function
 
@@ -61,7 +59,7 @@ Artificial Neural Networks (ANNs) are powerful models inspired by the brain, cap
 
 * MLPs can approximate **any continuous function** (given enough neurons)
 
-## . Activation Functions
+## 4. Activation Functions
 
 ### Why Needed?
 
@@ -93,9 +91,8 @@ Without activation → network becomes just a linear model.
 ### Step 4: Gradient Descent
 
 * Update weights:
-  $$
-  w \leftarrow w - \eta \nabla L
-  $$
+
+$w \leftarrow w - \eta \nabla L$
 
 ## ⚡ 6. Backpropagation Intuition
 
