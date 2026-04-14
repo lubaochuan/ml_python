@@ -90,9 +90,7 @@ Without activation → network becomes just a linear model.
 
 ### Step 4: Gradient Descent
 
-* Update weights:
-
-$w \leftarrow w - \eta \nabla L$
+* Update weights: $w \leftarrow w - \eta \nabla L$
 
 ## ⚡ 6. Backpropagation Intuition
 
