@@ -92,7 +92,7 @@ Without activation → network becomes just a linear model.
 
 * Update weights: $w \leftarrow w - \eta \nabla L$
 
-## ⚡ 6. Backpropagation Intuition
+## 6. Backpropagation Intuition
 
 * Error flows **backward** through the network
 * Each weight updated based on:
