@@ -61,7 +61,8 @@ AI: The United States wanted to land on the moon as part of the Apollo program, 
 
 You: Please write a hello world program in Java.
 
-AI: ```java
+AI:
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -72,6 +73,7 @@ public class HelloWorld {
 ---
 
 You:  Write a Java program that computes the factorial of an integer.
+
 AI: Certainly! Below is a simple Java program that computes the factorial of an integer. The factorial of a non-negative integer \( n \) is the product of all positive integers less than or equal to \( n \).
 
 ```java
