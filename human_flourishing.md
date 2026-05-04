@@ -90,7 +90,7 @@ Reflect on:
 | Understanding of ML concepts          | 25%    |
 | Data & modeling reasoning             | 20%    |
 | Risks & Ethics                        | 15%    |
-| uman flourishing reflection.          | 20%    |
+| human flourishing reflection.         | 20%    |
 
 # Common Pitfalls to Avoid
 
